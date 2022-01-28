@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vistoria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Vistoria.css">
+</head>
+
+<body>
+    <div class="header">
+        <a href="#default" class="logo"><img src="imagens/honda-autos-logo.png" alt="logo" class="logo"></a>
+        <a href="#default" class="logo">Sampa<br>motors</a>
+        <div class="header-right">
+            <h1>Honda Sampa - São Paulo</h1>
+        </div>
+    </div>
+
+    <h3><i>RECEBIMENTO DO VEICULO - VISTORIA</i></h3>
+
+    <form>
+        <table class="tabela1">
+            <tr>
+                <td>
+                    <label for="cliente"><b>CLIENTE:</b></label>
+                    <input type="text" id="cliente" name="cliente" value="RUTH CLARO DA SILVA">
+                </td>
+                <td></td>
+                <td>
+                    <label for="fone"><b>FONE:</b></label>
+                    <input type="text" id="fone" name="fone" value="(11) 9619432543">
+                </td>
+                <td>
+                    <label for="email"><b>E-MAIL:</b></label>
+                    <input type="text" id="email" name="email" value="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="modelo"><b>MODELO:</b></label>
+                    <input type="text" id="modelo" name="modelo" value="HR-V TOURING">
+                </td>
+                <td>
+                    <label for="ano"><b>ANO:</b></label>
+                    <input type="text" id="ano" name="ano" value="">
+                </td>
+                <td>
+                    <label for="placa"><b>PLACA:</b></label>
+                    <input type="text" id="placa" name="placa" value="FUZ4432">
+                </td>
+                <td>
+                    <label for="prisma"><b>PRISMA:</b></label>
+                    <input type="text" id="prisma" name="prisma" value="">
+                </td>
+                <td>
+                    <label for="km"><b>KM:</b></label>
+                    <input type="text" id="km" name="km" value="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="consultor"><b>CONSULTOR:</b></label>
+                    <input type="text" id="consultor" name="consultor" value="Andre Rosa">
+                </td>
+                <td></td>
+                <td>
+                    <label for="data"><b>DATA:</b></label>
+                    <input type="text" id="data" name="data" value="14-1-2022">
+                </td>
+                <td>
+                    <label for="hrdentr"><b>HORA ENTRADA:</b></label>
+                    <input type="text" id="hrdentr" name="hrdentr" value="16:36:12">
+                </td>
+                <td>
+                    <label for="hrdsai"><b>HORA SAIDA:</b></label>
+                    <input type="text" id="hrdsai" name="hrdsai" value="">
+                </td>
+            </tr>
+        </table>
+
+        <h5>SERVIÇO REQUISITADO:</h5>
+
+        <table class="tabela2">
+            <tr>
+                <td>
+                    <input type="radio" id="r10" name="srvreq" value="r10">
+                    <label for="r10">Revisão 10.000 km</label><br>
+                    <input type="radio" id="r20" name="srvreq" value="r20">
+                    <label for="r10">Revisão 20.000 km</label><br>
+                    <input type="radio" id="r30" name="srvreq" value="r30">
+                    <label for="r30">Revisão 30.000 km</label><br>
+                    <input type="radio" id="trdol" name="srvreq" value="trdol">
+                    <label for="trdol">Troca de oleo</label><br>
+                </td>
+                <td>
+                    <input type="radio" id="subpal" name="srvreq" value="subpal">
+                    <label for="subpal">Substituição de pastilhas de freio e retifica de discos</label><br>
+                    <input type="radio" id="subpalim" name="srvreq" value="subpalim">
+                    <label for="subpalim">Substituição das palhetas dos impiadores</label><br>
+                    <input type="radio" id="subesc" name="srvreq" value="subesc">
+                    <label for="subesc">Substituição do sistema de escapamento</label><br>
+                    <input type="radio" id="lavagem" name="srvreq" value="lavagem">
+                    <label for="lavagem">Lavagem (não inclusa no tempo do Express Service)</label><br>
+                </td>
+                <td>
+                    <input type="radio" id="alinhamento" name="srvreq" value="alinhamento">
+                    <label for="alinhamento">Alinhamento e balanceamento de rodas</label><br>
+                    <input type="radio" id="sublamp" name="srvreq" value="sublamp">
+                    <label for="sublamp">Substituição de lampadas</label><br>
+                    <input type="radio" id="subbat" name="srvreq" value="subbat">
+                    <label for="subbat">Subistituição de baterias</label><br>
+                    <input type="radio" id="outro" name="srvreq" value="outro">
+                    <label for="outro">
+                        <label for="outro">Outro:</label>
+                        <input type="text" id="outro" name="outro" value="">
+                    </label><br>
+                </td>
+            </tr>
+        </table>
+
+        <table class="tabela3">
+            <tr>
+                <th>PARTES INTERNAS & DOCUMENTOS</th>
+                <th>PARTES EXTERNAS & SEGURANÇA</th>
+                <th>REPAROS RÁPIDOS FUN & PINT.</th>
+                <th>ACESSÓRIOS</th>
+            </tr>
+            <tr>
+                <td>
+                    Manuais
+                    <input type="radio" id="sim" name="manuais" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="manuais" value="nao">
+                    <label for="nao">N</label><br>
+                    Bancos
+                    <input type="radio" id="sim" name="bancos" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="bancos" value="nao">
+                    <label for="nao">N</label><br>
+                    Forrações
+                    <input type="radio" id="sim" name="forracoes" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="forracoes" value="nao">
+                    <label for="nao">N</label><br>
+                    Puerta
+                    <input type="radio" id="sim" name="puerta" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="puerta" value="nao">
+                    <label for="nao">N</label><br>
+                    Tapetes
+                    <input type="radio" id="sim" name="tapetes" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="tapetes" value="nao">
+                    <label for="nao">N</label><br>
+                    Radio
+                    <input type="radio" id="sim" name="radio" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="radio" value="nao">
+                    <label for="nao">N</label><br>
+                </td>
+                <td>
+                    Antena
+                    <input type="radio" id="sim" name="antena" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="antena" value="nao">
+                    <label for="nao">N</label><br>
+                    Rodas
+                    <input type="radio" id="sim" name="rodas" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="rodas" value="nao">
+                    <label for="nao">N</label><br>
+                    Macaco
+                    <input type="radio" id="sim" name="macaco" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="macaco" value="nao">
+                    <label for="nao">N</label><br>
+                    Triângulo
+                    <input type="radio" id="sim" name="triangulo" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="triangulo" value="nao">
+                    <label for="nao">N</label><br>
+                    Estepe
+                    <input type="radio" id="sim" name="estepe" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="estepe" value="nao">
+                    <label for="nao">N</label><br>
+                </td>
+                <td>
+                    Polimento
+                    <input type="radio" id="sim" name="polimento" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="polimento" value="nao">
+                    <label for="nao">N</label><br>
+                    Cristalização
+                    <input type="radio" id="sim" name="cristalizacao" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="cristalizacao" value="nao">
+                    <label for="nao">N</label><br>
+                    Pintura
+                    <input type="radio" id="sim" name="pintura" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="pintura" value="nao">
+                    <label for="nao">N</label><br>
+                    Pintura Pára-choque
+                    <input type="radio" id="sim" name="pinturaparachoque" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="pinturaparachoque" value="nao">
+                    <label for="nao">N</label><br>
+                    Rep. Chapa s/pint.
+                    <input type="radio" id="sim" name="repchapa" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="repchapa" value="nao">
+                    <label for="nao">N</label><br>
+                </td>
+                <td>
+                    Farois Neblina
+                    <input type="radio" id="sim" name="farois" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="farois" value="nao">
+                    <label for="nao">N</label><br>
+                    Protetor Carter
+                    <input type="radio" id="sim" name="protetorcarter" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="protetorcarter" value="nao">
+                    <label for="nao">N</label><br>
+                    Pelicula
+                    <input type="radio" id="sim" name="pelicula" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="pelicula" value="nao">
+                    <label for="nao">N</label><br>
+                    Ponteira Escap.
+                    <input type="radio" id="sim" name="ponteira" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="ponteira" value="nao">
+                    <label for="nao">N</label><br>
+                    Sensor Estac.
+                    <input type="radio" id="sim" name="sensor" value="sim">
+                    <label for="sim">S</label>
+                    <input type="radio" id="nao" name="sensor" value="nao">
+                    <label for="nao">N</label><br>
+                </td>
+            </tr>
+        </table>
+
+        <div class="flex-container">
+            <div>
+                <img class="carro" src="imagens/Capturar.PNG" alt="carro">
+            </div>
+            <div>
+                <img class="carro" src="imagens/Capturar2.PNG" alt="carro">
+            </div>
+            <div class="contpainel">
+                <p>M - Manchado D - Descascado <br>Q - Quebrado R - Riscado <br>A - Amassado</p>
+                <img class="painel" src="imagens/Capturar3.PNG" alt="painel">
+            </div>
+        </div>
+
+        <table class="tabela4">
+            <tr>
+                <td>
+                    <label for="nos"><b>N° OS:</b></label>
+                    <input type="text" id="nos" name="nos" value="Não tem">
+                </td>
+                <td>
+                    <input type="radio" id="oficina" name="oficina" value="oficina">
+                    <label for="oficina">Oficina</label>
+                </td>
+                <td>
+                    <input type="radio" id="express" name="oficina" value="express">
+                    <label for="express"><img class="express" src="imagens/Capturar4.PNG" alt="express"></label>
+                </td>
+                <td>
+                    <h5>VALOR ORÇ. (PREVIO)</h5>
+                </td>
+            </tr>
+        </table>
+
+        <div class="flex-container">
+            <div>
+                <div class="assinatura">
+                    <div class="linha"></div>
+                    <p class="ass">RUTH CLARO DA SILVA</p>
+                </div>
+            </div>
+            <div class="left-container">
+                <div class="assinatura">
+                    <div class="linha"></div>
+                    <p class="ass">ANDRE ROSA</p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <h3><i>FORMULARIO DE INSPEÇÃO</i></h3>
+        <p>Além dos itens previstos no manual do proprietário, serão inspecionados os itens abaixo:</p>
+
+        <div class="flex-container">
+            <div class="inspec">
+                <p><b>INSPEÇÃO 27 Itens</b></p>
+            </div>
+            <div class="ok">
+                <p><b>OK</b></p>
+            </div>
+            <div class="atencao">
+                <p><b>ATENÇÃO</b><br>(reparo antes prox. revisão)</p>
+            </div>
+            <div class="reparo">
+                <p><b>REPARO IMEDIATO</b><br></p>
+            </div>
+            <div class="inspec">
+            </div>
+            <div class="ok">
+                <p><b>OK</b></p>
+            </div>
+            <div class="atencao">
+                <p><b>ATENÇÃO</b><br>(reparo antes prox. revisão)</p>
+            </div>
+            <div class="reparo">
+                <p><b>REPARO IMEDIATO</b><br></p>
+            </div>
+        </div>
+
+        <table class="tabela5">
+            <tr>
+                <td>
+                    <div class="linha"></div>
+                </td>
+                <td>
+                    <b>Não abra seu capo para estranhos!</b>
+                </td>
+                <td>
+                    <p>
+                        1° via (branca) - Cliente <br>
+                        2° via (azul) - Entrega <br>
+                        3° via (amarela) - Arquivo
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <script src="" async defer></script>
+</body>
+
+</html>
